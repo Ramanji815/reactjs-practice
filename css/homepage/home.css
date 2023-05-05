@@ -43,31 +43,14 @@ header{
 #logo{
     height:150px;
     width:150px;
-    background-color: #8d5c4a;
+    background-color: white;
     border-radius: 50%;
     margin-top: 2%;
-    margin-left:50%;
+    margin-left:43%;
     position:absolute;
-}
-#logo1{
-    height:150px;
-    width:150px;
-    background-color: #8d5c4a;
-    border-radius: 50%;
-    margin-top: 2%;
-    margin-left:39%;
-    position:absolute;
-    
 }
 
 #logo > span{
-    margin-top: 12%;
-    margin-left:22%;
-    position:absolute;
-    font-size: 90px;
-    font-family:Arial, Helvetica, sans-serif
-}
-#logo1 > span{
     margin-top: 12%;
     margin-left:22%;
     position:absolute;
@@ -105,13 +88,128 @@ select{
 
 /* QuickSearch Css */
 .quickSearch{
-    height:600px;
-    border:5px double blue
+    /* height:600px; */
+    width:80%;
+    margin-left: 10%;
+    margin-top:1%;
+    /* border:5px double blue */
 }
 
+#QuickSearchHeading{
+    font-size: 30px;
+    display: block;
+    color:#3b2632;
+    font-weight: bold;
+    margin-left:2%
+}
+
+#QuickSubHeading{
+    font-size: 20px;
+    line-height: 2;
+    color:gray;
+    margin-left:2%
+}
+
+.tileContainer{
+    height:180px;
+    width:30%;
+    /* border:2px solid black; */
+    display: inline-block;
+    margin-top:3%;
+    margin-left:2%;
+    box-shadow: 10px 15px 10px #3b2632;
+}
+
+.tileComponent1{
+    width:45%;
+    float: left;
+}
+
+.tileComponent1 >img{
+    width:100%;
+    height:100%
+}
+
+.tileComponent2{
+    width:52%;
+    float: left;
+    margin-left:2%;
+    margin-top: 15%;
+}
+
+.componentHeading1{
+    font-size:25px;
+    color:#3b2632;
+}
+.componentHeading2{
+    font-size:20px;
+    color:gray;
+}
 
 /* Footer Css */
 footer{
-    height:80px;
-    border:5px groove orange
+    margin-top:2%;
+    text-align:center;
+    background-color: #3b2632;
+    color:white
+}
+ul{
+    list-style: none;
+}
+
+.footdiv{
+    width:33%;
+    float: left;
+    border-right: 1px solid white;
+}
+
+.noBorder{
+    border:none
+}
+
+.socialFoot{
+    text-align: center;
+}
+
+
+@media screen and (max-width:1600px){
+    body{
+        background-color:rgb(201, 199, 244)
+    }
+}
+
+@media screen and (max-width:1400px){
+    body{
+        background-color:rgb(201, 199, 244)
+    }
+}
+
+@media screen and (max-width:1200px){
+    body{
+        background-color:rgb(201, 199, 244)
+    }
+}
+
+@media screen and (max-width:1000px){
+    body{
+        background-color:rgb(201, 199, 244)
+    }
+    .tileContainer{
+        width:45%
+    }
+}
+
+@media screen and (max-width:800px){
+    body{
+        background-color:rgb(243, 242, 200)
+    }
+}
+
+@media screen and (max-width:600px){
+    body{
+        background-color:rgb(195, 219, 245)
+    }
+    .tileContainer{
+        width:90%
+    }
 }
