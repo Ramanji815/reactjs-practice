@@ -1,0 +1,292 @@
+https://code.visualstudio.com/ > Install
+https://nodejs.org/en > Install
+https://git-scm.com/downloads > Install
+https://github.com/ > Create Account
+https://github.com/Aakashdeveloper > Follow
+
+
+REACT JS @ 8:00 PM (IST) by Mr. Aakash
+Day-1 https://youtu.be/k_2Fz0T4yzE
+Day-2 https://youtu.be/kTOP2NOigPg
+Day-3 https://youtu.be/RCwfjtw8Ocg
+Day-4 https://youtu.be/UZE0N1ueqFE
+Day-5 https://youtu.be/ZTPYgCUaav4
+
+support@nareshit.com and also to ADMIN SHUBHAM 7337313415
+
+
+//Vscode extenions
+> vscode-icons
+> githistory
+> git lens
+> spell check
+> tabnine
+
+//Chrome extension
+> https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh
+
+html
+css
+bootstrap 3,4,5
+Basic Javacript during react (if else, function,loop, array, object)
+Npm
+React = 4
+Mock API
+json-server
+React_hooks -1
+React-JWT(Login Logout)-2
+Deployment
+-> MERN
+-> ReactPy
+-> Netlify
+-> Nginx
+-> Jenkins
+-> Aws
+-> Docker
+-> Github Action
+Basic React Native- 1
+HOC
+React-GraphQL - 1 
+React-Redux - 1
+React-Redux With Hooks - 1
+React-PWA - 1
+React-map -1
+Testing Jest Enzime
+Github
+///////Walkthrough///////
+React-Saga -1
+React-with-typescript-1
+
+React-Query - 1
+--------NOT Backend--------------
+API
+GraphQL
+Login/Logout
+
+
+React
+React is a front library/framework which help to
+build single page application 
+using component based structure
+
+(Open Source)
+NPM 3,168,391
+Node package manager
+> Registery that contains lot of packages
+> Help to install and maintain dependency
+
+JSON (JavaScript Object Notation)
+Way to represent data
+Key:Value pair of data
+[
+    {
+        "name":"John",
+        "city":"Delhi"
+    },
+    {
+        "name":"Nikita",
+        "city":"Paris",
+        "subject":"React"
+    }
+]
+
+package.json
+> First file in that run in the application
+> Entry point to app
+> MetaData (name,description,version)
+> All the dependencies
+> Scripts (start,build,test)
+
+//////Step to generate package.json
+* NodeJs must be installed in laptop
+> go inside the folder where you want package.json
+> npm init 
+> Answer all question
+
+//////Step to install packages
+* NodeJs must be installed in laptop
+> go inside the folder where you want to install
+> npm i packagename/npm install packagename
+npm i packagename@version 
+
+package-lock > dependency tree
+.gitignore > all those thing i want to avoid pushing
+node_modules > all packages of app
+
+>>>>When we get new app
+* npm i
+
+Step To Create React App
+# window
+* One time step
+> open cmd as administrator
+> npm i -g create-react-app
+
+# Every time you need new app
+> open cmd/terminal
+> go inside folder
+> create-react-app appname
+
+# mac/linux
+* One time step
+> open terminal
+> sudo npm i -g create-react-app
+
+# Every time you need new app
+> open terminal
+> go inside folder
+> create-react-app appname
+
+------------------------------------------
+################################
+> Open cmd
+> npx create-react-app appname
+
+///////Step to run react app
+> open terminal/cmd
+> go inside folder
+> npm start
+
+
+///////
+react > Main package of the application
+react-dom > help to load content on the browser
+react-scripts > help to run the application
+
+
+function add(a,b){
+    return a,b
+}
+add(2,5)
+5
+add(5,2)
+2
+
+function add(a,b){
+    var out = [a,b]
+    return out
+}
+
+add(2,5)
+2
+
+add(2,5)
+[2, 5]
+
+HTML > Raws Structure
+CSS > Design part of application
+JS > Logical Part
+
+
+head> links,css,js,title
+body> what ever is visible to the user
+
+
+block element
+> Always start from new line
+> occupies the whole width of the screen
+> Div p 
+
+inline element
+> Start in the same line 
+> only take space according to content
+> span a
+
+
+name
+image
+something about
+skills
+map
+social link
+
+//////
+inline
+styletag
+stylesheet
+
+inline>styletag>stylesheet
+
+inline
+{
+    color:red,
+    height:30px
+}
+
+styletag
+{
+    height:50px,
+    background:orange,
+    border:5px
+}
+
+stylesheet{
+    color:green,
+    border:10px,
+    width:90px
+}
+
+{
+   color:red,
+   height:30px
+   background:orange,
+   border:5px
+   width:90px
+}
+
+///////////
+TagName
+> div h1
+Class
+> when we want to target multiple element with same property
+> .
+Id
+> When we want to target something unique element with one property
+> #
+
+
+Position in css
+
+> Absolute
+> Relavtive
+
+Bootstrap 3/4/5
+
+bs3
+xs < 768px
+sm > 768px
+md > 992px
+lg > 1200px
+
+
+bs4
+xs < 576px
+sm > 576px
+md > 768px
+lg > 992px
+xl > 1200px
+
+
+bs5
+xs < 576px
+sm > 576px
+md > 768px
+lg > 992px
+xl > 1200px
+xxl> 1400px
+
+var
+let
+const
+arrow function
+
+map
+filter
+rest
+spread
+
+
+loop
+ifelse
+array
+object
